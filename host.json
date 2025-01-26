@@ -6,6 +6,13 @@
                 "isEnabled": true,
                 "excludedTypes": "Request"
             }
+        },
+        "logLevel": {
+            "default": "Information",
+            "Function": "Information",
+            "Function.ProcessEmailMessage": "Information",
+            "Host.Results": "Information",
+            "Host.Aggregator": "Information"
         }
     }
 } 
