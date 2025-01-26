@@ -53,7 +53,7 @@ namespace EmailProcessor
 
         [Function("ProcessEmailMessage")]
         public async Task Run(
-            [ServiceBusTrigger("%QueueName%", Connection = "ServiceBusConnection__fullyQualifiedNamespace")] 
+            [ServiceBusTrigger("%QueueName%", Connection = "ServiceBusConnection")] 
             string messageBody)
         {
             try

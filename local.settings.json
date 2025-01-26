@@ -10,6 +10,6 @@
         "SMTP_PASSWORD": "your-password",
         "FROM_ADDRESS": "noreply@yourdomain.com",
         "APPLICATIONINSIGHTS_CONNECTION_STRING": "YOUR_APP_INSIGHTS_CONNECTION_STRING",
-        "ServiceBusConnection__fullyQualifiedNamespace": "your-namespace.servicebus.windows.net"
+        "ServiceBusConnection": "your-namespace.servicebus.windows.net"
     }
 } 
