@@ -3,13 +3,13 @@
     "Values": {
         "AzureWebJobsStorage": "UseDevelopmentStorage=true",
         "FUNCTIONS_WORKER_RUNTIME": "dotnet-isolated",
-        "ServiceBusConnection": "<your-service-bus-connection-string>",
         "QueueName": "email-queue",
         "SMTP_HOST": "smtp.example.com",
         "SMTP_PORT": "587",
         "SMTP_USERNAME": "your-username",
         "SMTP_PASSWORD": "your-password",
         "FROM_ADDRESS": "noreply@yourdomain.com",
-        "APPLICATIONINSIGHTS_CONNECTION_STRING": "YOUR_APP_INSIGHTS_CONNECTION_STRING"
+        "APPLICATIONINSIGHTS_CONNECTION_STRING": "YOUR_APP_INSIGHTS_CONNECTION_STRING",
+        "ServiceBusConnection__fullyQualifiedNamespace": "your-namespace.servicebus.windows.net"
     }
 } 
